@@ -1,2 +1,11 @@
 git config --global user.name "sg;lk"
 git config --global user.mail "narras77"
+
+
+mvn
+cd /opt
+wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
+export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
+export M2_HOME=/opt/maven
+export M2=/opt/maven/bin
+export PATH=$PATH:$M2
