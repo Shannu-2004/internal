@@ -9,3 +9,6 @@ export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto
 export M2_HOME=/opt/maven
 export M2=/opt/maven/bin
 export PATH=$PATH:$M2
+ tmct
+cd /opt
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
