@@ -22,3 +22,6 @@ find -name tomcat-users.xml
   <user username="tomcat" password="admin" roles="manager-jmx"/>
 
 ln -s /opt/tomcat/bin/startup.sh/usr/bin/tomcat-start
+
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
