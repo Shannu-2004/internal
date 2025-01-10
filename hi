@@ -20,3 +20,5 @@ find -name tomcat-users.xml
   <user username="tomcat" password="admin" roles="manager-gui"/>
   <user username="tomcat" password="admin" roles="manager-script"/>
   <user username="tomcat" password="admin" roles="manager-jmx"/>
+
+ln -s /opt/tomcat/bin/startup.sh/usr/bin/tomcat-start
